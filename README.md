@@ -30,5 +30,5 @@ An example can be found in my own blog [here](https://wayofnumbers.github.io/).
 
 Reference
 -----
-[1] Wikipedia - [Words per minute](https://en.wikipedia.org/wiki/Words_per_minute)
-[2] Medium - [Read Time](https://help.medium.com/hc/en-us/articles/214991667-Read-time)
+[1] Wikipedia - [Words per minute](https://en.wikipedia.org/wiki/Words_per_minute) <br>
+[2] Medium - [Read Time](https://help.medium.com/hc/en-us/articles/214991667-Read-time) <br>
