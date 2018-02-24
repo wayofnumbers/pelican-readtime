@@ -1,5 +1,4 @@
 # 'pelican-readtime' - A Read Time Plugin for Pelican Static Site Generator
-=====
 
 An article estimated read time plugin for Pelican static site generator. After Pelican generated the content of each page, the plugin read through the generated HTML content and strip all the tags, count all the word, then utilize average human read speed to calculate the read time of each article. The read time is passed over to the 'content' object of the article so Jinja template can use it to display the read time on wherever appropriate.
 
@@ -27,3 +26,9 @@ You can also add some styling to it like so:
     {% endif %}
 ```
 An example can be found in my own blog [here](https://wayofnumbers.github.io/).
+
+
+Reference
+-----
+[1] Wikipedia - [Words per minute](https://en.wikipedia.org/wiki/Words_per_minute)
+[2] Medium - [Read Time](https://help.medium.com/hc/en-us/articles/214991667-Read-time)
