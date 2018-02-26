@@ -7,9 +7,9 @@ Note: This is a revised version of [jmaister's readtime plugin](https://github.c
 
 Demo
 -----
-The plugin can be embedded into your site's template and look like this:
-![Pelican Read Time Demo](./demo.png )
-An example can be found in my own blog [here](https://wayofnumbers.github.io/).
+The plugin can be embedded into your site's template and look like this:<br>
+![Pelican Read Time Demo](./demo.png )<br>
+An example can be found in my own blog [here](https://wayofnumbers.github.io/).<br>
 
 Usage
 -----
