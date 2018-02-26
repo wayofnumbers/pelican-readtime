@@ -5,6 +5,12 @@ An article estimated read time plugin for Pelican static site generator. After P
 
 Note: This is a revised version of [jmaister's readtime plugin](https://github.com/jmaister/readtime). I added some more comments and tweaked the code so it runs smoothly on Python 3.6
 
+Demo
+-----
+The plugin can be embedded into your site's template and look like this:
+[Pelican Read Time Demo](./demo.png )
+An example can be found in my own blog [here](https://wayofnumbers.github.io/).
+
 Usage
 -----
 
@@ -25,7 +31,6 @@ You can also add some styling to it like so:
     <span><p style="text-align:right; color:#aaaaaa; ">&nbsp Estimated read time: {{article.readtime.minutes}} min.</p></span>
     {% endif %}
 ```
-An example can be found in my own blog [here](https://wayofnumbers.github.io/).
 
 
 Reference
