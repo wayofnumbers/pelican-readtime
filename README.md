@@ -3,8 +3,6 @@
 An article estimated read time plugin for Pelican static site generator. After Pelican generated the content of each page, the plugin read through the generated HTML content and strip all the tags, count all the word, then utilize average human read speed to calculate the read time of each article. The read time is passed over to the 'content' object of the article so Jinja template can use it to display the read time on wherever appropriate.
 
 
-Note: This is a revised version of [jmaister's readtime plugin](https://github.com/jmaister/readtime). I added some more comments and tweaked the code so it runs smoothly on Python 3.6
-
 Demo
 -----
 The plugin can be embedded into your site's template and look like this:<br>
@@ -31,6 +29,10 @@ You can also add some styling to it like so:
     <span><p style="text-align:right; color:#aaaaaa; ">&nbsp Estimated read time: {{article.readtime.minutes}} min.</p></span>
     {% endif %}
 ```
+
+Credits
+-----
+This is a revised version of [jmaister's readtime plugin](https://github.com/jmaister/readtime). I added some more comments and tweaked the code so it runs smoothly on Python 3.6
 
 
 Reference
